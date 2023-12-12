@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Rubik's Cube Simulator</title>
-    <style>
+    <title>Rubik'
       body { margin: 0; }
     </style>
   </head>
-  <body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
-    <script>
+  
       // Инициализация сцены
       const scene = new THREE.Scene();
       const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
@@ -17,15 +14,10 @@
       document.body.appendChild(renderer.domElement);
 
       // Создание Rubik's Cube
-      const cubeSize = 1;
-      const cubeGeometry = new THREE.BoxGeometry(cubeSize, cubeSize, cubeSize);
-
-      // Используем разные цвета для каждой грани куба
-      const materials = [
-        new THREE.MeshBasicMaterial({ color: 0xff0000 }), // Передняя грань
-        new THREE.MeshBasicMaterial({ color: 0x00ff00 }), // Задняя грань
-        new THREE.MeshBasicMaterial({ color: 0x0000ff }), // Верхняя грань
-        new THREE.MeshBasicMaterial({ color: 0xffff00 }), // Нижняя грань
+      const c
+      const cubeGeometry = new THREE.BoxGeometry(cubeSiz      const materials = [
+        new THREE.MeshBasicMaterial({ color: 0xff0000 }), // Пере
+        new THREE.MeshBasicMaterial({ color: 0x0000ff }),
         new THREE.MeshBasicMaterial({ color: 0xff00ff }), // Левая грань
         new THREE.MeshBasicMaterial({ color: 0x00ffff })  // Правая грань
       ];
