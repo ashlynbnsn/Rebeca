@@ -39,4 +39,32 @@
       };
 
       animate();
+сновной цикл анимации
+      const animate = () => {
+        requestAnimationFrame(animate);
+      const cube = new THREE.Mesh(cubeGeometry, materials);
+        // Вращение Rubik's Cube
+        cube.rotation.x += 0.01;
+        cube.rotation.y += 0.01;
+сновной цикл анимации
+      const animate = () => {
+        requestAnimationFrame(animate);
+      const cube = new THREE.Mesh(cubeGeometry, materials);
+        // Вращение Rubik's Cube
+        cube.rotation.x += 0.01;
+        cube.rotation.y += 0.01;
+сновной цикл анимации
+      const animate = () => {
+        requestAnimationFrame(animate);
+      const cube = new THREE.Mesh(cubeGeometry, materials);
+        // Вращение Rubik's Cube
+        cube.rotation.x += 0.01;
+        cube.rotation.y += 0.01;
+сновной цикл анимации
+      const animate = () => {
+        requestAnimationFrame(animate);
+      const cube = new THREE.Mesh(cubeGeometry, materials);
+        // Вращение Rubik's Cube
+        cube.rotation.x += 0.01;
+        cube.rotation.y += 0.01;
 
