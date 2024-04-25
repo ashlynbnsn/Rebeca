@@ -7,10 +7,7 @@
   </head>
 
       const cubeGeometry = new THREE.BoxGeometry(cubeSiz      const materials = [
-        new THREE.MeshBasicMaterial({ color: 0xff0000 }), // Пере
-        new THREE.MeshBasicMaterial({ color: 0x0000ff }),
-        new THREE.MeshBasicMaterial({ color: 0xff00ff }), // Левая грань
-        new THREE.MeshBasicMaterial({ color: 0x00ffff })  // Правая грань
+        new THREE.MeshBasicMaterial({ colo
       ];
 
       const cube = new THREE.Mesh(cubeGeometry, materials);
